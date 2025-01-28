@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+head{
+    background-color: #ba49bd;
+    text-align: right;
+}
+
+.title {
+    font-size: 2.8rem;
+    margin: 1rem 0;
+    background-color: #ba49bd;
+    text-align: center;
+}
+
+.flavor-box {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
+
+header{
+    font-family: 'Bubble Letters';
+    background-image: url('./title-background.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #ECE8B8;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+}
+
+#content{
+    background-image: url("./images/sprinkles.jpg") !important;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: repeat;
+    
+}
+
+.flavor-container{
+    display: flex;
+      flex-wrap: wrap;
+      gap: 20px; 
+      justify-content: center;
+}
+
+.flavors{
+    font-family: 'Bubble Letters';
+    color: deeppink;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-width: 20px;
+    border-style: double;
+    border-color: black;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.flavor-pic{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+footer{
+    color: white;
+    padding-top: 5%;
+    background-image: url(./title-background.jpeg);
+    bottom: 0px;
+    width:100vw;
+    height: auto;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.navlist {
+    display: flex;
+    background-color: #6e3926;
+    color: var(--heliotrope); 
+    
+}
+
+.navlist li {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header{
+    text-align: center;
+    padding: 0;
+}
+#id{
+    background-image: none;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+
+}
+.letsgo {
+    align-self: start;
+    color: var(--heliotrope)
+}
+.SecretFlavor{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.page1footer{
+    color: var(--heliotrope)
+
+}
